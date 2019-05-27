@@ -1,0 +1,6 @@
+#div1{
+    margin: auto;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+}

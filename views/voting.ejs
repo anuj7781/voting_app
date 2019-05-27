@@ -1,0 +1,31 @@
+<html>
+
+<head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/voting.css">
+    <title>
+        Voting process
+    </title>
+</head>
+
+<body>
+
+    <form action="/users/done/?id=<%=user.username%>" method="POST">
+        <div id="div1">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="pm" value="modi" required>
+                <img src="/images/modi.jpg" height="100px" width="100px" alt="Modi">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="pm" value="rahul" required>
+                <img src="/images/rahul.jpeg" height="100px" width="100px" alt="Rahul" >
+            </div>
+        </div>
+        <div class="submit-button">
+            <input type="submit"  class="btn btn-primary float-right">
+        </div>
+    </form>
+</body>
+
+</html>

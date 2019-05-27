@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <meta(http-equiv='Cache-Control', content='no-store, no-cache, must-revalidate' )>
+    <meta(http-equiv='Pragma', content='no-cache' )>
+    <meta(http-equiv='Expires', content='-1' )>
+    Done
+</head>
+
+<body>
+    <h1>Response Recorded of <%=user.username%></h1>
+</body>
+<script>
+    history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+        history.go(1);
+    };
+</script>
+
+</html>

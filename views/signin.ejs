@@ -1,0 +1,46 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/signin.css">
+</head>
+
+<body>
+  
+    <body class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="form_bg">
+                    <form action="/users/voting-session" method="POST">
+                        <h2 class="text-center">Voters Login</h2>
+                        <br />
+                        <div class="form-group">
+                            <input name="username" type="email" class="form-control" id="userid" placeholder="username">
+                        </div>
+                        <div class="form-group">
+                            <input name="password" type="password" class="form-control" id="pwd" placeholder="Password">
+
+                        </div>
+                        <br />
+                        <div class="align-center">
+                            <button type="submit" class="btn btn-primary" id="login">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <!-- <form action="/users/voting-session" method="POST">
+    <input type="email" name="username" placeholder="Usename"  required>
+    <input type="password" name="password" placeholder="Password"  required>
+    <input type="submit" value="Sign In">
+
+</form> -->
+    </body>
